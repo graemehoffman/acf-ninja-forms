@@ -180,7 +180,7 @@ class acf_field_ninja_forms extends acf_field {
       return false;
     }
 
-    if ( $value == 'null' ) {
+    if ( $value === 'null' ) {
       return false;
     }
 
