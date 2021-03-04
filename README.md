@@ -4,7 +4,7 @@ This is an Advanced Custom Field custom field to select one or many [Ninja Forms
 
 ## Compatibility
 
-* ACF version 4 and up
+* ACF version 5
 * Ninja Forms version 2.9.X and up
 
 ## Installation
@@ -69,8 +69,10 @@ If you are using the field to select multiple forms, you will have to iterate ov
 
 ## About
 
-Made with <3 by [Boston Dell-Vandenberg](http://bostondv.com/).
+Tweaked with <3 by Graeme Hoffman.
 
 ## Credits
+
+Based on plugin by by [Boston Dell-Vandenberg](http://bostondv.com/). Just removed what caused code sniffing issues in WPVIP
 
 Thanks to Adam Pope for the [ACF Gravity Forms](https://github.com/stormuk/Gravity-Forms-ACF-Field) and Lewis Mcarey for the [Users Field ACF](https://github.com/lewismcarey/User-Field-ACF-Add-on) add-ons on which we based this on.

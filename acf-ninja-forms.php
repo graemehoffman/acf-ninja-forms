@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Advanced Custom Fields: Ninja Forms Field
-Plugin URI: https://github.com/bostondv/acf-ninja-forms
+Plugin URI: https://github.com/graemehoffman/acf-ninja-forms
 Description: Adds an Advanced Custom Fields field to select one or many Ninja Forms.
 Version: 1.1.0
-Author: bostondv
-Author URI: http://www.bostondv.com
+Author: graemehoffman
+Author URI: http://www.graemehoffman.com
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 */
@@ -21,13 +21,3 @@ function include_field_types_ninja_forms( $version ) {
 }
 
 add_action( 'acf/include_field_types', 'include_field_types_ninja_forms' );
-
-/**
- * Verson 4
- */
-
-function register_fields_ninja_forms() {
-  include_once( 'acf-ninja-forms-field-v4.php' );
-}
-
-add_action( 'acf/register_fields', 'register_fields_ninja_forms' );

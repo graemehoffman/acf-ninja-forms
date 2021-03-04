@@ -1,5 +1,5 @@
 === ACF Ninja Forms ===
-Contributors: bostondv
+Contributors: bostondv, graemehoffman
 Donate link: http://bostondv.com/tips
 License: MIT
 License URI: http://opensource.org/licenses/MIT
@@ -78,6 +78,10 @@ Thanks to Adam Pope for the [ACF Gravity Forms](https://github.com/stormuk/Gravi
 1. Activate the Advanced Custom Fields: Ninja Forms Field plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.1.1 =
+
+* Diabled ACF 4 compatibility to avoid code sniffing issues
 
 = 1.1.0 =
 
